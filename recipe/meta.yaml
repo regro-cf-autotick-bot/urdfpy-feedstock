@@ -1,5 +1,5 @@
 {% set name = "urdfpy" %}
-{% set version = "0.0.22" %}
+{% set version = "0.1.20" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/mmatl/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 504e7d9f07badb72d4240c9be6dd6bd954b2113f5e5e93f1f30251afd62b9e4f
+  sha256: 283de7410d57198eb5845f899fdffd17edd13b32ecdc1f2d130c3ed6da47cdc0
   patches:
     - relax_pycollada_req.patch
 
