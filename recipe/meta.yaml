@@ -11,16 +11,17 @@ source:
   sha256: 504e7d9f07badb72d4240c9be6dd6bd954b2113f5e5e93f1f30251afd62b9e4f
   patches:
     - relax_pycollada_req.patch
+    - unpin_networkx.patch
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - lxml
-    - networkx ==2.2
+    - networkx >=2.2
     - numpy
     - pillow
     - pip
@@ -32,7 +33,7 @@ requirements:
     - trimesh
   run:
     - lxml
-    - networkx ==2.2
+    - networkx >=2.2
     - numpy
     - pillow
     - pycollada
