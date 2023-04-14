@@ -1,11 +1,11 @@
-About urdfpy
-============
+About urdfpy-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/urdfpy-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mmatl/urdfpy
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/urdfpy-feedstock/blob/main/LICENSE.txt)
 
 Summary: URDF parser and manipulator for Python
 

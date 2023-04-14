@@ -14,9 +14,10 @@ source:
     - unpin_networkx.patch
     # Fix compatibility with numpy 1.24
     - 24.patch
+    - 6.patch
 
 build:
-  number: 2
+  number: 3
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
